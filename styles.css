@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 100%;
+  background-color: #0f0e0e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  color:rgb(247, 247, 242);/**/
+}
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  transition: background 0.3s;
+}
+.sidebar a:hover {
+  background-color:crimson;
+}
+
+.content {
+  margin-left: 180px;
+}
+
+#inicio {
+  background-image: url('post.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio-texto {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 25px 40px;
+  border: 2px solid crimson;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.inicio-texto h1 {
+  font-size: 2em;
+  color: crimson;
+}
+
+.inicio-texto p {
+  font-style: italic;
+  color: crimson;
+  font-size: 1.2em;
+}
+
+.header {
+  background-color: crimson;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+#servicios {
+  text-align: center;
+  padding: 30px;
+}
+
+#servicios h2 {
+  color: crimson;
+  margin-bottom: 25px;
+}
+
+.servicios-container {
+  display: flex;
+  justify-content: center;
+  gap: 300px;/**/
+  flex-wrap: wrap;
+}
+
+.servicio {
+  width: 300px;
+  background-color: #fff;
+}
+
+.servicio img {
+  width: 150%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.servicio h3 {
+  margin-top: 15px;
+  color:crimson;
+}
+
+.servicio p {
+  text-align: justify;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+iframe {
+  width: 90%;
+  height: 700px;
+  border: none;
+  margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 25px 0;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-weight: bold;
+  color: #000;
+}
